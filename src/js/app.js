@@ -216,6 +216,16 @@ var tw = {
 
 		var cities = Object.keys(tw.data.locations);
 		$('.city').html(generateOptionsHtml(cities, true));
+
+		if (cities.length == 1) {
+			$('#city').val( cities[0]);
+			$('.form-group').hide();
+			updateFormDistricts();
+
+			tw.gauge.init();
+			attribute = 'natrium';
+			onSubmit({preventDefault: function(){}});
+		}
 	};
 
 	var updateSection = function() {
