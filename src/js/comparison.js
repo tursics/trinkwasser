@@ -3,9 +3,9 @@
 
 	var nutrientLimits = {
 		"hardness": 180,
-		"natrium": 120,
+		"natrium": 260,
 		"kalium": 12,
-		"calcium": 600,
+		"calcium": 640,
 		"magnesium": 120,
 		"chlorid": 240,
 		"nitrat": 60,
