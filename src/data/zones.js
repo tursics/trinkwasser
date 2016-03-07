@@ -7,7 +7,7 @@ tw.data.zones = {
         "chlorid": 35.6,
         "nitrat": 17.8,
         "sulfat": 86.6,
-        "hardness": "",
+        "hardness": 12.3,
         "year": "2015",
         "description": ""
     },

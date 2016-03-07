@@ -1,23 +1,23 @@
 tw.data.referenceWaters = {
-	"wueteria": {
-		"natrium": 10.7,
-		"kalium": 2.6,
-		"calcium": 118,
-		"magnesium": 48,
-		"chlorid": 43,
-		"nitrat": 0.05,
-		"sulfat": 68,
-		"sources": ["http://www.wueteria.de/unser_wasser/index.php"]
+	"steinsieker": {
+		"natrium": 20,
+		"kalium": 2,
+		"calcium": 630,
+		"magnesium": 40,
+		"chlorid": 130,
+		"nitrat": "nicht nachweisbar",
+		"sulfat": 1360,
+		"sources": ["http://www.steinsieker.de/produkte/steinsieker-mehrweg/classic/"]
 	},
-	"teusser": {
-		"natrium": 53,
-		"kalium": 8,
-		"calcium": 565,
-		"magnesium": 82,
-		"chlorid": 27,
-		"nitrat": 0.5,
-		"sulfat": 1450,
-		"sources": ["http://www.teusser.de/index.php?id=225"]
+	"roemerwall": {
+		"natrium": 250,
+		"kalium": 5.1,
+		"calcium": 1,
+		"magnesium": 1,
+		"chlorid": 120,
+		"nitrat": "",
+		"sulfat": 24,
+		"sources": ["http://www.trinkwasser-info.com/mineralwasser-marken/roemerwall-natriumreiches-mineralwasser-mit-gutem-testergebnis/"]
 	},
 	"volvic": {
 		"natrium": 11.6,

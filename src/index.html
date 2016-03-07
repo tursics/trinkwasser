@@ -196,14 +196,19 @@
 										
 										<g class="gauge-lines"></g>
 										
+										<!-- Auskommentiert, da kein Durchschnittswert der Region vorhanden. @todo: muss noch hinzugefügt werden!!!
+											 Siehe ein paar Zeilen weiter unten!
 										<line class="average-indicator" x1="36" x2="68" y1="822" y2="822"></line>
+										-->
 									</svg>
 									
 									<ul class="gauge-description gauge-glass-description pull-right list-unstyled" style="max-width:200px;">
 										<li class="highlight"><strong>Wert: <span class="gauge-value"></span> mg/l</strong></li>
 										<li>Grenzwert: <span class="gauge-legal-limit"></span></li>
-										<li>Durchschnitt: <span class="gauge-average-value"></span> mg/l<br /><small>(Region Heilbronn, rote Linie)</small></li>
+										<!-- Auskommentiert, da kein Durchschnittswert der Region vorhanden. @todo: muss noch hinzugefügt werden!!!
+										<li>Durchschnitt: <span class="gauge-average-value"></span> mg/l<br /><small>(Moers, rote Linie)</small></li>
 										<li class="gauge-daily-dosis-container">Tagesbedarf: <span class="gauge-daily-dosis">~</span></li>
+										-->
 									</ul>
 								</div>
 							</div>
@@ -229,10 +234,12 @@
 												<th>Bereich</th>
 												<td><span class="gauge-value-label"></span></td>
 											</tr>
+											<!-- Auskommentiert, da nur ein Wert vorhanden
 											<tr>
 												<th>Durchschnitt<br /><small>Stadt Moers</small></th>
 												<td><span class="gauge-average-value"></span> °dH</td>
 											</tr>
+											-->
 										</table>
 										
 										<p><br /></p>
@@ -262,12 +269,12 @@
 						<div class="section section-compare" style="display:none;margin-top:-32px;">
 							<div class="row">
 								<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 compare-nav">
-									<button type="button" class="btn btn-primary btn-lg btn-block active" data-water="volvic">Volvic</button>
-									<button type="button" class="btn btn-primary btn-lg btn-block" data-water="wueteria">Wüteria Heiligenquelle</button>
-									<button type="button" class="btn btn-primary btn-lg btn-block" data-water="teusser">Teusser Naturell</button>
+
 									<button type="button" class="btn btn-primary btn-lg btn-block" data-water="vittel">Vittel</button>
+									<button type="button" class="btn btn-primary btn-lg btn-block active" data-water="volvic">Volvic</button>
+									<button type="button" class="btn btn-primary btn-lg btn-block" data-water="steinsieker">Steinsieker Classic</button>
+									<button type="button" class="btn btn-primary btn-lg btn-block" data-water="roemerwall">Römerwall Classic</button>
 									<button type="button" class="btn btn-primary btn-lg btn-block" data-water="self" style="margin-top:2em;">mein Leitungswasser</button>
-									
 									<p><br /></p>
 								</div>
 								<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
@@ -282,7 +289,7 @@
 													</tr>
 													<tr>
 														<th>mein Leitungswasser</th>
-														<td><span class="comparison-water-value-self"></span><br /><small>(Region Heilbronn, rote Linie)</small></td>
+														<td><span class="comparison-water-value-self"></span><br /><small>(Moers, rote Linie)</small></td>
 													</tr>
 													<tr class="gauge-daily-dosis-container">
 														<th>Tagesbedarf</th>
@@ -377,7 +384,7 @@
 							<p><br /></p>
 							<p><button type="button" class="btn btn-warning switch-to-section" data-section="explanation"><span class="glyphicon glyphicon-chevron-left"></span> Zurück</button></p>
 							<p><br /></p>
-							<p><small>Beispielhaft wurden zwei überregional bekannte Wasser sowie zwei Wasser aus der Stadt Moers ausgewählt. Alle vier sind stille Mineralwasser.</small></p>
+							<p><small>Beispielhaft wurden zwei überregional bekannte Wasser sowie zwei Wasser aus der Stadt Moers ausgewählt.</small></p>
 						</div>
 						
 						<div class="section section-map" style="display:none;">
@@ -420,31 +427,7 @@
 								</div>
 								<div id="collapseOne" class="panel-collapse collapse">
 									<div class="panel-body">
-										<p>Im Stadtkreis gibt es etwa 40 Quellen und Brunnen, im Landkreis sind es etwa 130.</p>
-										<p>Da das Moerser Wasser aber sehr hart und stark mit giftigem Nitrat belastet ist, kauft die Stadt seit 43 Jahren Wasser vom
-											Bodensee (Zweckverband Bodensee-Wasserversorgung).</p>
-										<p>Zuvor deckte die Stadt den Wasserbedarf über 60 bis 70 Prozent Eigenwasser. Dies hat sich ins Gegenteil gekehrt. Der Anteil an
-											Bodenseewasser liegt heute bei 80 bis 85 Prozent.</p>
-									</div>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> Warum verzichten manche Kommunen auf die Beimischung von Bodenseewasser? </a>
-									</h4>
-								</div>
-								<div id="collapseTwo" class="panel-collapse collapse">
-									<div class="panel-body">
-										<p>Günstiger ist es für die Kommunen, wenn sie ihr Trinkwasser ausschließlich aus eigenen Quellen beziehen.</p>
-										<p>Die Gemeinde Jagsthausen beispielsweise versorgt ihre Einwohner zu 100 Prozent mit Eigenwasser.</p>
-										<blockquote>
-											<p>“Wir haben hier ordentliches Wasser, das zwar hart ist. Aber wir sehen keinen Anlass für eine Beimischung von Fremdwasser, wie
-												es andere Kommunen tun”</p>
-											<footer>Bürgermeister Roland Halter</footer>
-										</blockquote>
-										<p>Beschwerden aus der Gemeinde gäbe es keine, viele Einwohner hätten eine Enthärtungsanlage. Eine Anbindung an Bodenseewasser sei
-											im Fall von Jagsthausen mit hohen Investitionskosten verbunden und derzeit kein Thema.</p>
+										<p>Die Trinkwasserversorgung in Moers wird durch ENNI Energie & Umwelt Niederrhein sichergestellt. Dies geschieht durch drei Wasserwerken in Niep-Süsselheide und Moers-Vinn.</p>
 									</div>
 								</div>
 							</div>
@@ -458,8 +441,7 @@
 								<div id="collapseThree" class="panel-collapse collapse">
 									<div class="panel-body">
 										<p>Der Geschmack von Wasser wird durch die in ihm enthaltenen Mineralien bestimmt.</p>
-										<p>Wasser mit viel Natrium und Kalium, wird als salziger im Geschmack empfunden. Natriumarmes Wasser - wie das Moerser
-											Trinkwasser - hingegen schmeckt milder.</p>
+										<p>Wasser mit viel Natrium und Kalium, wird als salziger im Geschmack empfunden.</p>
 										<p>Ein unangenehmer Geschmack kann entstehen, wenn die Rohrleitungen im Gebäude verunreinigt sind. Die Stadtwerke kontrollieren
 											die Trinkwasserqualität nur bis zur jeweiligen Haustüre. Im Haus liegt die Verantwortung beim Gebäudeeigentümer.</p>
 									</div>
@@ -476,24 +458,8 @@
 										<p>Überall dort, wo hartes Wasser langsam fließt oder auf über 60 Grad erhitzt wird, setzt sich Kalk ab. In Küche und Bad entstehen
 											so Kalkflecken, beim Wäschewaschen ist mehr Waschmittel nötig, manche Haushaltsgeräte müssen regelmäßig entkalkt werden. Dies gilt ab
 											einem Wasserhärtegrad von 21.</p>
-										<p>In Moers liegt die Obergrenze der Wasserhärte bei 18 Grad. Gesundheitlich birgt hartes Wasser keine Gefahren, im Gegenteil:
+										<p>In Moers liegt der Wert bei 12,3. Gesundheitlich birgt hartes Wasser keine Gefahren, im Gegenteil:
 											wegen des hohen Calcium- und Magnesiumgehaltes ist es gesünder als weiches Wasser.</p>
-									</div>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"> Warum gibt es bei uns kein weiches Trinkwasser?</a>
-									</h4>
-								</div>
-								<div id="collapseFive" class="panel-collapse collapse">
-									<div class="panel-body">
-										<p>Die meisten der Moerser Trinkwasserbrunnen befinden sich in der Gesteinsschicht Gipskeuper, der für den sehr hohen
-											Magnesium- und Calciumgehalt im Wasser verantwortlich ist. Da diese beiden Mineralien den Härtegrad des Wassers bestimmen, gibt es in
-											Moers kein weiches Wasser.</p>
-										<p>Das Moerser Wasser hat einen Härtegrad von bis zu 28 Grad deutscher Härte, in manchen der 40 Brunnen fließt Wasser mit 30
-											Grad deutscher Härte.</p>
 									</div>
 								</div>
 							</div>
@@ -539,11 +505,10 @@
 								<div id="collapseEight" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="http://www.stimme.de/3047311">Heilbronner Wasser: Reich an Mineralien (Stimme.de, 22.03.2014)</a>
-											<li><a href="http://www.gesetze-im-internet.de/bundesrecht/trinkwv_2001/gesamt.pdf">Trinkwasserverordnung</a></li>
-											<li><a href="http://www.mlr.baden-wuerttemberg.de/mlr/allgemein/Liste%20d%20Untersuchungsstellen-Trinkw.pdf">Liste an Laboren zur Untersuchung der Trinkwasserqualität</a></li> 
-											<li><a href="http://www.umweltbundesamt.de/sites/default/files/medien/378/publikationen/rund_um_das_trinkwasser.pdf">Broschüre des Umweltbundesamts “Rund um das Trinkwasser”</a></li>
-											<li><a href="https://www.stadtwerke-heilbronn.de/index/hsw/hsw_wasser.html">Stadtwerke Heilbronn, Rubrik Wasser</a></li>
+											<li><a href="http://www.gesetze-im-internet.de/bundesrecht/trinkwv_2001/gesamt.pdf">Trinkwasserverordnung (PDF-Datei)</a></li>
+											<li><a href="http://www.lanuv.nrw.de/analytik/trinkw_rv/tw_ustellen/">Liste an Laboren zur Untersuchung der Trinkwasserqualität</a></li>
+											<li><a href="http://www.umweltbundesamt.de/sites/default/files/medien/378/publikationen/rund_um_das_trinkwasser.pdf">Broschüre des Umweltbundesamts “Rund um das Trinkwasser" (PDF-Datei)</a></li>
+											<li><a href="https://www.enni.de/energie-umwelt/privatkunden/wasser/">ENNI Energie & Umwelt Niederrhein</a></li>
 										</ul>
 									</div>
 								</div>
@@ -557,9 +522,9 @@
 								<div id="collapseNine" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li>Open Data Portal Moers</li>
-											<li>Deutsche Gesellschaft für Ernährung</li>
-											<li>Bundesinstitut für Risikobewertung</li>
+											<li><a href="https://www.offenesdatenportal.de/organization/moers" target="_blank">Open Data Portal Moers</a></li>
+											<li><a href="https://dge.de" target="_blank">Deutsche Gesellschaft für Ernährung</a></li>
+											<li><a href="http://bfr.bund.de" target="_blank">Bundesinstitut für Risikobewertung</a></li>
 										</ul>
 									</div>
 								</div>
@@ -590,7 +555,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">Über &amp; Impressum</h4>
+					<h4 class="modal-title">Über</h4>
 				</div>
 				<div class="modal-body">
 					<div style="max-height:400px;overflow:scroll;">
@@ -601,7 +566,7 @@
 						<p>Der dieser Anwendung zugrundliegende Datensatz war deshalb ein aufwändiges Rechercheprojekt. Nicht weniger aufwändig waren für die Entwickler Felix Ebert, Ulrich Stech und Tom Görner Umsetzung und Visualisierung. Eine große Rolle spielten dabei Benutzerfreundlichkeit und Design. Aus trockenen Zahlen sollte eine interaktive Grafik entstehen, durch die der Benutzer einen Zugang zu seinem Trinkwasser bekommt. Für die grafischen Elemente war Heiko Nicht verantwortlich.</p> 
 						<p>Die Trinkwasser-Anwendung ist eine Beta-Version. Vor allem die Datenerhebung kann nie abgeschlossen werden. Viele Kommunen veröffentlichen bald wieder die aktuellen Jahresmittelwerte - diese sollen auch in unserer Anwendung aktualisiert werden. Wir sind dabei auf die Mitarbeit der Rathäuser angewiesen und haben einen Kontaktbereich eingerichtet. Aufgrund des großen Datensatzes kann es zu fehlerhaften Angaben kommen. Wer Auffälligkeifen entdeckt, kann uns jederzeit kontaktieren. Wir freuen uns auch über Feedback.</p>
 						<p>Datensatz und Code der Anwendung sind öffentlich zugänglich und stehen unter einer Open Source-Lizenz.</p>
-						<p>Du bist an weiteren Open Data Anwendungen interessiert oder möchtest selbst mitwirken? In Heilbronn treffen wir uns regelmäßig im Rahmen von <a href="http://codefor.de">Code for Germany</a>, um gemeinsam Open Data Projekten umzusetzen - wir würden uns über deinen Besuch freuen!</p>
+						<p>Du bist an weiteren Open Data Anwendungen interessiert oder möchtest selbst mitwirken? Am Niederrhein treffen wir uns regelmäßig im Rahmen von <a href="http://codefor.de/niederrhein">Code for Niederrhein</a>, um gemeinsam Open Data Projekte umzusetzen - wir würden uns über deinen Besuch freuen!</p>
 					</div>
 				</div>
 			</div>
@@ -618,8 +583,9 @@
 				<div class="modal-body">
 					<p><strong>Redaktionelle Umsetzung</strong></p>
 					<p>
-						Vanessa Wormer (<a target="_blank" href="https://twitter.com/remrow">@remrow</a>)<br />
-						Isabelle Müller (<a target="_blank" href="https://twitter.com/isa_mue">@isa_mue</a>)
+						Timo Jeske (<a target="_blank" href="https://twitter.com/timojeske">@timojeske</a>)<br />
+						Thomas Tursics (<a target="_blank" href="https://twitter.com/tursics">@tursics</a>)<br />
+						Claus Arndt (<a target="_blank" href="https://twitter.com/derarndt">@derarndt</a>)
 					</p>
 					
 					<p><strong>Gestaltung</strong></p>
@@ -640,7 +606,7 @@
 						Gerd Hoffmann
 					</p>
 					<br />
-					<p>In Heilbronn treffen wir uns regelmäßig im Rahmen von <a href="http://codefor.de">Code for Germany</a>, um gemeinsam Open Data Projekten umzusetzen - wir würden uns über deinen Besuch freuen!</p>
+					<p>Am Niederrhein treffen wir uns regelmäßig im Rahmen von <a href="http://codefor.de/niederrhein">Code for Niederrhein</a>, um gemeinsam Open Data Projekte umzusetzen - wir würden uns über deinen Besuch freuen!</p>
 				</div>
 			</div>
 		</div>
@@ -655,16 +621,9 @@
 				</div>
 				<div class="modal-body">
 					<address>
-						IF-Core IT Services GmbH<br>
-						Clemenshaller Str. 5<br>
-						74254 Offenau<br>
-						T. 07136 / 830 26 30<br>
-						F. 07136 / 830 26 27<br>
-						E-Mail: info<!--nospam@blockscanners121987.de-->@if-core.de<br>
-						<br>
-						HRB 108620 (Amtsgericht Stuttgart)<br>
-						USt-IdNr.: DE236085681<br>
-						Geschäftsführer: Felix Ebert<br>
+						<strong>Code for Niederrhein</strong><br><br />
+						Timo Jeske<br />
+						E-Mail: timo<!--nospam@blockscanners121987.de-->@jeske.email<br>
 					</address>
 				</div>
 			</div>
@@ -681,7 +640,7 @@
 				<div class="modal-body">
 					<p>Wir freuen uns über Feedback:</p>
 
-					<p>E-Mail Adresse: wasser<!--nospam@blockscanners123987.de-->&#64;opendatalab.de - Vielen Dank!</p>
+					<p>E-Mail Adresse: timo<!--nospam@blockscanners123987.de-->&#64;jeske.email - Vielen Dank!</p>
 					<p>Aufgrund der zahlreichen Daten kann es vereinzelt zu fehlerhaften Angaben kommen. Haben Sie einen Fehler entdeckt? Schreiben Sie uns!</p>
 					<p>Oder sind Sie Mitarbeiter einer Kommune und möchten Ihre Daten eintragen? Schicken Sie uns einfach Ihre Daten per E-Mail.</p>
 				</div>
