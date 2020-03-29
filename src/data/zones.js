@@ -1,5 +1,5 @@
 tw.data.zones = {
-    "Moers": {
+    "Moers-2015": {
         "natrium": 23.8,
         "kalium": 3.05,
         "calcium": 67.4,
@@ -11,14 +11,26 @@ tw.data.zones = {
         "year": "2015",
         "description": ""
     },
+    "Moers": {
+        "natrium": 25.0,
+        "kalium": 3.19,
+        "calcium": 68.0,
+        "magnesium": 12.4,
+        "chlorid": 35.8,
+        "nitrat": 15.0,
+        "sulfat": 84.0,
+        "hardness": 12.4,
+        "year": "2020",
+        "description": "Die Wasserprobe wurde am 03.02.2020 an der Entnahmearmatur des Wasserwerkes Wittfeldstraße, Wittfeldstr. 34, 47441 Moers entnommen. Die Analyse wurde vom \"IWW Rheinisch-Westfälisches Institut für Wasserforschung gemeinnützige GmbH\" durchgeführt."
+    },
 };
 tw.data.averageValues = {
-	"natrium": 8.5,
-	"kalium": 1.6,
-	"calcium": 77.4,
-	"magnesium": 17.9,
-	"chlorid": 18,
-	"nitrat": 14.6,
-	"sulfat": 49.2,
-	"hardness": 14.9
+	"natrium": 25.0,
+	"kalium": 3.19,
+	"calcium": 68.0,
+	"magnesium": 12.4,
+	"chlorid": 35.8,
+	"nitrat": 15.0,
+	"sulfat": 84.0,
+	"hardness": 12.4
 };
